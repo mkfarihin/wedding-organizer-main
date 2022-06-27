@@ -1,0 +1,6 @@
+CRITICAL - 2022-04-18 07:11:30 --> Declaration of App\Controllers\Groups::edit() must be compatible with CodeIgniter\RESTful\ResourcePresenter::edit($id = null)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-18 07:11:33 --> Declaration of App\Controllers\Groups::edit() must be compatible with CodeIgniter\RESTful\ResourcePresenter::edit($id = null)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

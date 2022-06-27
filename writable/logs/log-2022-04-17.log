@@ -1,0 +1,17 @@
+ERROR - 2022-04-17 02:08:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1) VALUES (:0:, :1:)' at line 1
+CRITICAL - 2022-04-17 02:23:47 --> syntax error, unexpected token "}", expecting ";"
+#0 C:\xampp\htdocs\wedding_org\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('auth/login')
+#1 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('auth/login')
+#2 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-17 04:16:01 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\wedding_org\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('auth/loginProce...')
+#1 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('auth/loginProce...')
+#2 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

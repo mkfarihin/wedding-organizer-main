@@ -1,0 +1,92 @@
+CRITICAL - 2022-04-11 08:54:13 --> syntax error, unexpected variable "$routes"
+#0 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-11 08:54:16 --> syntax error, unexpected variable "$routes"
+#0 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-04-11 08:54:18 --> syntax error, unexpected variable "$routes"
+#0 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-11 08:54:20 --> syntax error, unexpected variable "$routes"
+#0 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+ERROR - 2022-04-11 09:09:38 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-04-11 09:09:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\wedding_org\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\wedding_org\system\Database\Config.php(105): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#2 C:\xampp\htdocs\wedding_org\app\Config\Routes.php(35): CodeIgniter\Database\Config::forge()
+#3 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(788): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-04-11 09:12:09 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-04-11 09:12:09 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\wedding_org\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\wedding_org\system\Database\Config.php(105): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#2 C:\xampp\htdocs\wedding_org\app\Config\Routes.php(35): CodeIgniter\Database\Config::forge()
+#3 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(788): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-04-11 09:12:11 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-04-11 09:12:11 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\wedding_org\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\wedding_org\system\Database\Config.php(105): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#2 C:\xampp\htdocs\wedding_org\app\Config\Routes.php(35): CodeIgniter\Database\Config::forge()
+#3 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(788): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-04-11 09:12:12 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-04-11 09:12:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\wedding_org\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\wedding_org\system\Database\Config.php(105): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#2 C:\xampp\htdocs\wedding_org\app\Config\Routes.php(35): CodeIgniter\Database\Config::forge()
+#3 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(788): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-04-11 09:12:12 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-04-11 09:12:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\wedding_org\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\wedding_org\system\Database\Config.php(105): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#2 C:\xampp\htdocs\wedding_org\app\Config\Routes.php(35): CodeIgniter\Database\Config::forge()
+#3 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(788): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-04-11 09:15:11 --> Can't create database 'yuknikah'; database exists
+CRITICAL - 2022-04-11 09:15:11 --> Unable to create the specified database.
+#0 C:\xampp\htdocs\wedding_org\app\Config\Routes.php(36): CodeIgniter\Database\Forge->createDatabase('yuknikah')
+#1 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(788): CodeIgniter\CodeIgniter->Config\{closure}()
+#2 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#3 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

@@ -1,0 +1,165 @@
+CRITICAL - 2022-06-01 09:08:44 --> Undefined property: stdClass::$name_group
+#0 C:\xampp\htdocs\wedding_org\app\Views\contact\index.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 66)
+#1 C:\xampp\htdocs\wedding_org\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wedding_org\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\wedding_org\system\Common.php(1089): CodeIgniter\View\View->render('contact/index', Array, true)
+#4 C:\xampp\htdocs\wedding_org\app\Controllers\Contacts.php(26): view('contact/index', Array)
+#5 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(832): App\Controllers\Contacts->index()
+#6 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contacts))
+#7 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-01 09:42:32 --> Undefined variable $contacts
+#0 C:\xampp\htdocs\wedding_org\app\Views\contact\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 57)
+#1 C:\xampp\htdocs\wedding_org\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wedding_org\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\wedding_org\system\Common.php(1089): CodeIgniter\View\View->render('contact/index', Array, true)
+#4 C:\xampp\htdocs\wedding_org\app\Controllers\Contacts.php(25): view('contact/index', Array)
+#5 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(832): App\Controllers\Contacts->index()
+#6 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contacts))
+#7 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-01 09:43:13 --> Call to undefined method App\Models\ContactModel::paginated
+#0 C:\xampp\htdocs\wedding_org\app\Models\ContactModel.php(41): CodeIgniter\Model->__call('paginated', Array)
+#1 C:\xampp\htdocs\wedding_org\app\Controllers\Contacts.php(24): App\Models\ContactModel->getPaginated(5)
+#2 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(832): App\Controllers\Contacts->index()
+#3 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contacts))
+#4 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-06-01 09:43:47 --> Call to undefined method App\Models\ContactModel::paginated
+#0 C:\xampp\htdocs\wedding_org\app\Models\ContactModel.php(41): CodeIgniter\Model->__call('paginated', Array)
+#1 C:\xampp\htdocs\wedding_org\app\Controllers\Contacts.php(24): App\Models\ContactModel->getPaginated(5)
+#2 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(832): App\Controllers\Contacts->index()
+#3 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contacts))
+#4 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-06-01 09:43:48 --> Call to undefined method App\Models\ContactModel::paginated
+#0 C:\xampp\htdocs\wedding_org\app\Models\ContactModel.php(41): CodeIgniter\Model->__call('paginated', Array)
+#1 C:\xampp\htdocs\wedding_org\app\Controllers\Contacts.php(24): App\Models\ContactModel->getPaginated(5)
+#2 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(832): App\Controllers\Contacts->index()
+#3 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contacts))
+#4 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-06-01 09:43:49 --> Call to undefined method App\Models\ContactModel::paginated
+#0 C:\xampp\htdocs\wedding_org\app\Models\ContactModel.php(41): CodeIgniter\Model->__call('paginated', Array)
+#1 C:\xampp\htdocs\wedding_org\app\Controllers\Contacts.php(24): App\Models\ContactModel->getPaginated(5)
+#2 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(832): App\Controllers\Contacts->index()
+#3 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contacts))
+#4 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-06-01 09:43:51 --> Call to undefined method App\Models\ContactModel::paginated
+#0 C:\xampp\htdocs\wedding_org\app\Models\ContactModel.php(41): CodeIgniter\Model->__call('paginated', Array)
+#1 C:\xampp\htdocs\wedding_org\app\Controllers\Contacts.php(24): App\Models\ContactModel->getPaginated(5)
+#2 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(832): App\Controllers\Contacts->index()
+#3 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contacts))
+#4 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-06-01 09:43:56 --> Call to undefined method App\Models\ContactModel::paginated
+#0 C:\xampp\htdocs\wedding_org\app\Models\ContactModel.php(41): CodeIgniter\Model->__call('paginated', Array)
+#1 C:\xampp\htdocs\wedding_org\app\Controllers\Contacts.php(24): App\Models\ContactModel->getPaginated(5)
+#2 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(832): App\Controllers\Contacts->index()
+#3 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contacts))
+#4 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-06-01 09:45:08 --> Table 'wedding.group' doesn't exist
+CRITICAL - 2022-06-01 09:45:08 --> Table 'wedding.group' doesn't exist
+#0 C:\xampp\htdocs\wedding_org\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\wedding_org\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\wedding_org\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\wedding_org\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\wedding_org\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\wedding_org\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\wedding_org\app\Models\ContactModel.php(41): CodeIgniter\BaseModel->paginate(5)
+#7 C:\xampp\htdocs\wedding_org\app\Controllers\Contacts.php(24): App\Models\ContactModel->getPaginated(5)
+#8 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(832): App\Controllers\Contacts->index()
+#9 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contacts))
+#10 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-06-01 10:13:02 --> syntax error, unexpected variable "$data"
+#0 C:\xampp\htdocs\wedding_org\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\wedding_org\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-01 10:15:06 --> syntax error, unexpected variable "$data"
+#0 C:\xampp\htdocs\wedding_org\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\wedding_org\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-01 10:16:57 --> Call to undefined function App\Controllers\getGet()
+#0 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(832): App\Controllers\Contacts->index()
+#1 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contacts))
+#2 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-01 10:18:11 --> Call to undefined function App\Controllers\getGet()
+#0 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(832): App\Controllers\Contacts->index()
+#1 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contacts))
+#2 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-01 10:18:11 --> Call to undefined function App\Controllers\getGet()
+#0 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(832): App\Controllers\Contacts->index()
+#1 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contacts))
+#2 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-01 10:18:12 --> Call to undefined function App\Controllers\getGet()
+#0 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(832): App\Controllers\Contacts->index()
+#1 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contacts))
+#2 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-01 10:18:22 --> Call to undefined function App\Controllers\getGet()
+#0 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(832): App\Controllers\Contacts->index()
+#1 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contacts))
+#2 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-01 12:14:33 --> Undefined property: stdClass::$name_group
+#0 C:\xampp\htdocs\wedding_org\app\Controllers\Contacts.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 138)
+#1 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(832): App\Controllers\Contacts->export()
+#2 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contacts))
+#3 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-01 12:30:30 --> Undefined property: stdClass::$name_group
+#0 C:\xampp\htdocs\wedding_org\app\Controllers\Contacts.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 138)
+#1 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(832): App\Controllers\Contacts->export()
+#2 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contacts))
+#3 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

@@ -1,0 +1,201 @@
+CRITICAL - 2022-05-21 20:20:54 --> Undefined variable $groups
+#0 C:\xampp\htdocs\wedding_org\app\Views\group\index.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\wedding_org\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wedding_org\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\wedding_org\system\Common.php(1089): CodeIgniter\View\View->render('group/index', Array, true)
+#4 C:\xampp\htdocs\wedding_org\app\Controllers\Groups.php(16): view('group/index')
+#5 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(832): App\Controllers\Groups->index()
+#6 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups))
+#7 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-21 20:24:52 --> syntax error, unexpected double-quoted string ">Group Kontak</a></li>", expecting "," or ";"
+#0 C:\xampp\htdocs\wedding_org\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\wedding_org\system\View\View.php(424): CodeIgniter\View\View->render('layout/menu', NULL, true)
+#2 C:\xampp\htdocs\wedding_org\app\Views\layout\default.php(250): CodeIgniter\View\View->include('layout/menu')
+#3 C:\xampp\htdocs\wedding_org\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wedding_org\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\wedding_org\system\View\View.php(226): CodeIgniter\View\View->render('layout/default', Array, true)
+#6 C:\xampp\htdocs\wedding_org\system\Common.php(1089): CodeIgniter\View\View->render('group/index', Array, true)
+#7 C:\xampp\htdocs\wedding_org\app\Controllers\Groups.php(16): view('group/index')
+#8 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(832): App\Controllers\Groups->index()
+#9 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups))
+#10 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-05-21 21:08:11 --> Undefined property: App\Controllers\Groups::$group
+#0 C:\xampp\htdocs\wedding_org\app\Controllers\Groups.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(832): App\Controllers\Groups->index()
+#2 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups))
+#3 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-21 21:10:03 --> Cannot use App\Models\GroupModel as GroupModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-21 21:10:24 --> Undefined property: App\Controllers\Groups::$group
+#0 C:\xampp\htdocs\wedding_org\app\Controllers\Groups.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(832): App\Controllers\Groups->index()
+#2 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups))
+#3 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-21 21:10:25 --> Undefined property: App\Controllers\Groups::$group
+#0 C:\xampp\htdocs\wedding_org\app\Controllers\Groups.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(832): App\Controllers\Groups->index()
+#2 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups))
+#3 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-21 21:11:46 --> Undefined property: App\Controllers\Groups::$group
+#0 C:\xampp\htdocs\wedding_org\app\Controllers\Groups.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(832): App\Controllers\Groups->index()
+#2 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups))
+#3 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-21 21:13:01 --> Undefined property: App\Controllers\Groups::$group
+#0 C:\xampp\htdocs\wedding_org\app\Controllers\Groups.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(832): App\Controllers\Groups->index()
+#2 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups))
+#3 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-21 21:13:01 --> Undefined property: App\Controllers\Groups::$group
+#0 C:\xampp\htdocs\wedding_org\app\Controllers\Groups.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(832): App\Controllers\Groups->index()
+#2 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups))
+#3 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-21 21:13:02 --> Undefined property: App\Controllers\Groups::$group
+#0 C:\xampp\htdocs\wedding_org\app\Controllers\Groups.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(832): App\Controllers\Groups->index()
+#2 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups))
+#3 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-21 21:13:02 --> Undefined property: App\Controllers\Groups::$group
+#0 C:\xampp\htdocs\wedding_org\app\Controllers\Groups.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(832): App\Controllers\Groups->index()
+#2 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups))
+#3 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-21 21:13:02 --> Undefined property: App\Controllers\Groups::$group
+#0 C:\xampp\htdocs\wedding_org\app\Controllers\Groups.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(832): App\Controllers\Groups->index()
+#2 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups))
+#3 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-21 21:13:02 --> Undefined property: App\Controllers\Groups::$group
+#0 C:\xampp\htdocs\wedding_org\app\Controllers\Groups.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(832): App\Controllers\Groups->index()
+#2 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups))
+#3 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-21 21:13:11 --> Undefined property: App\Controllers\Groups::$group
+#0 C:\xampp\htdocs\wedding_org\app\Controllers\Groups.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(832): App\Controllers\Groups->index()
+#2 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups))
+#3 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-21 21:14:48 --> Undefined property: App\Controllers\Groups::$group
+#0 C:\xampp\htdocs\wedding_org\app\Controllers\Groups.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(832): App\Controllers\Groups->index()
+#2 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups))
+#3 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-21 21:14:49 --> Undefined property: App\Controllers\Groups::$group
+#0 C:\xampp\htdocs\wedding_org\app\Controllers\Groups.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(832): App\Controllers\Groups->index()
+#2 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups))
+#3 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-21 21:14:49 --> Undefined property: App\Controllers\Groups::$group
+#0 C:\xampp\htdocs\wedding_org\app\Controllers\Groups.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(832): App\Controllers\Groups->index()
+#2 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups))
+#3 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-21 21:14:49 --> Undefined property: App\Controllers\Groups::$group
+#0 C:\xampp\htdocs\wedding_org\app\Controllers\Groups.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(832): App\Controllers\Groups->index()
+#2 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups))
+#3 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-21 21:14:49 --> Undefined property: App\Controllers\Groups::$group
+#0 C:\xampp\htdocs\wedding_org\app\Controllers\Groups.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(832): App\Controllers\Groups->index()
+#2 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups))
+#3 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-21 21:14:49 --> Undefined property: App\Controllers\Groups::$group
+#0 C:\xampp\htdocs\wedding_org\app\Controllers\Groups.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(832): App\Controllers\Groups->index()
+#2 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups))
+#3 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-21 21:14:50 --> Undefined property: App\Controllers\Groups::$group
+#0 C:\xampp\htdocs\wedding_org\app\Controllers\Groups.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(832): App\Controllers\Groups->index()
+#2 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups))
+#3 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-21 21:14:50 --> Undefined property: App\Controllers\Groups::$group
+#0 C:\xampp\htdocs\wedding_org\app\Controllers\Groups.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(832): App\Controllers\Groups->index()
+#2 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups))
+#3 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-21 21:23:57 --> Undefined property: App\Controllers\Groups::$group
+#0 C:\xampp\htdocs\wedding_org\app\Controllers\Groups.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(832): App\Controllers\Groups->index()
+#2 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups))
+#3 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-21 21:37:33 --> Allowed fields must be specified for model: App\Models\GroupModel
+#0 C:\xampp\htdocs\wedding_org\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Grou...')
+#1 C:\xampp\htdocs\wedding_org\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\wedding_org\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\wedding_org\app\Controllers\Groups.php(56): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(832): App\Controllers\Groups->create()
+#5 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Groups))
+#6 C:\xampp\htdocs\wedding_org\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wedding_org\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\wedding_org\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
